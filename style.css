@@ -155,7 +155,14 @@ h1 {
     }
     .score {
         display: inline-block;
-        margin-top: 2.2rem;
         margin-left: 5.2rem;
+    }
+    .symbol {
+        display: none;
+    }
+    .label-score {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
