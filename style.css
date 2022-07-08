@@ -120,3 +120,35 @@ h1 {
 .label-score {
     margin-bottom: 2rem;
 }
+
+@media (max-width: 34em) {
+    h1,
+    .number {
+        font-size: 2.5rem;
+    }
+    .again {
+        font-size: 1.5rem;
+    }
+    .between {
+        font-size: 1.2rem;
+        right: 2.8rem;
+    }
+    .guess {
+        font-size: 2.5rem;
+        padding: 1.2rem;
+        width: 12rem;
+    }
+    .btn {
+        font-size: 1rem;
+        font-family: inherit;
+        padding: 1rem 1.5rem;
+    }
+    .right {
+        width: 26rem;
+        font-size: 1.5rem;
+        margin-right: 7.5rem;
+    }
+    .highscore {
+        display: inline;
+    }
+}
