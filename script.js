@@ -41,26 +41,26 @@ button.addEventListener('click', () => {
     }
     if (inputNumber > secretNum) {
         if (score > 1) {
-            message.textContent = '📈📈too high...';
+            message.textContent = 'too high...';
             score--;
             scoreText.textContent = score;
         } else if (score > 0) {
             document.querySelector('body').style.backgroundColor = ' #FA6934';
             score--;
             scoreText.textContent = score;
-            message.textContent = '💔💔you loss the game';
+            message.textContent = 'you loss the game';
         }
     }
     if (inputNumber < secretNum) {
         if (score > 1) {
-            message.textContent = '📉📉too low...';
+            message.textContent = 'too low...';
             score--;
             scoreText.textContent = score;
         } else if (score > 0) {
             document.querySelector('body').style.backgroundColor = ' #FA6934';
             score--;
             scoreText.textContent = score;
-            message.textContent = '💔💔you loss the game';
+            message.textContent = 'you loss the game';
         }
     }
 
